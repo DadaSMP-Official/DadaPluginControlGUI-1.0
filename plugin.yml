@@ -1,0 +1,16 @@
+name: DadaPluginControlGUI
+version: '1.0.0'
+main: it.dadasmp.plugincontrolgui.DadaPluginControlGuiPlugin
+api-version: '1.20'
+author: DadaSMP
+description: GUI OP per vedere i plugin del server ed eseguire i loro comandi.
+commands:
+  plugingui:
+    description: Apre la GUI OP con plugin e comandi del server.
+    usage: /plugingui
+    aliases: [pluginui, pluginsgui, dadaplugins]
+    permission: dadaplugincontrolgui.use
+permissions:
+  dadaplugincontrolgui.use:
+    description: Permette di aprire la GUI plugin/comandi.
+    default: op
